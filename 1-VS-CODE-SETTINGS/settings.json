@@ -1,0 +1,130 @@
+{
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.minimap.maxColumn": 100,
+  "scm.inputFontFamily": "Fira Code",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.fontFamily": "Operator Mono Lig, Fira Code, Cascadia Code, Consolas, 'Courier New', monospace",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.preferredHighContrastColorTheme": "Default Dark+",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.codeLens": true,
+  "update.mode": "none",
+  "editor.fontSize": 18,
+  "editor.wordWrap": "on",
+  "editor.fontWeight": "800",
+  "editor.definitionLinkOpensInPeek": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggestSelection": "first",
+  "workbench.sideBar.location": "left",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "extensions.autoUpdate": false,
+  "explorer.confirmDelete": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "auto-close-tag.disableOnLanguage": [],
+  "terminal.integrated.cursorWidth": 4,
+
+  // SETTINGS: cursor animation & smooth scroll
+  "editor.cursorBlinking": "expand",
+  "editor.smoothScrolling": true,
+
+  // SETTINGS: fontLigatures (ligatures symbolic icon)
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // SETTINGS: emmet abbreviation
+  "emmet.syntaxProfiles": { "javascript": "html" },
+  "files.associations": { "html": "html" },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabCompletion": "on",
+
+  // SETTINGS: react(jsx) emmet enable
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+  },
+
+  // EXTENSION: auto-close-tag
+  "auto-close-tag.excludedTags": [
+    "area",
+    "base",
+    "br",
+    "col",
+    "command",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "keygen",
+    "link",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr"
+  ],
+
+  // EXTENSION: code spell checker
+  "cSpell.userWords": [
+    "Btns",
+    "COVID",
+    "Mukul",
+    "Mymensingh",
+    "Paypal",
+    "Rahman",
+    "SIBACS",
+    "Samiur",
+    "browserslist",
+    "countup",
+    "nodemon"
+  ],
+
+  // EXTENSION: es-lint
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  }
+
+  /* // EXTENSION: emoji snippets
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": true,
+    "strings": false
+  }, */
+
+  /* // EXTENSION: power mode
+  "powermode.enabled": true,
+  "powermode.enableShake": false,
+  "powermode.comboTimeout": 1, */
+
+  /* // EXTENSION: live sass comppile
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": null
+    }
+  ] */
+}
