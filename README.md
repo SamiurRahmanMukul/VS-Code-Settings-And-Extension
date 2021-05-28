@@ -1,5 +1,3 @@
-# MUKUL-VS-CODE-SETUP-AND-EXTENSION
-
 <!-- social media connecting shield -->
 
 [![Facebook][facebook-shield]][facebook-url]
@@ -7,6 +5,8 @@
 [![Twitter][twitter-shield]][twitter-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Github][github-shield]][github-url]
+
+# MUKUL-VS-CODE-SETUP-AND-EXTENSION
 
 <!-- repository public message -->
 
