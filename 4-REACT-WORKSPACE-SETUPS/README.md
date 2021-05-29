@@ -42,13 +42,19 @@ Please follow the below instructions to run this project in your computer:
 
 You can use any editor but as I personally prefer VS Code. I will give some instructions about how I prefer VS code to be setup for React applications.
 
-### Plugins
+### Plugins / Extension
 
 You need to install the below plugins:
 
 - ESLint by Dirk Baeumer
 - Prettier - Code formatter by Prettier
 - Dracula Official Theme (optional)
+
+### Snippet Extension
+
+using `ES7 React/Redux/GraphQL/React-Native snippets` extension then write down code easily and faster.
+
+<img src="images/react-extention.PNG" alt="Line Feed" width="700">
 
 ### Settings
 
@@ -194,4 +200,4 @@ Create a `.eslintrc` file in the project root and enter the below contents:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [github-shield]: https://img.shields.io/badge/-Github-black.svg?style=flat-square&logo=github&color=555&logoColor=white
 
-                        </> HAPPY PROGRAMMING & DEVELOPING 🤣 </>
+                            </> HAPPY PROGRAMMING & DEVELOPING 🤣 </>
