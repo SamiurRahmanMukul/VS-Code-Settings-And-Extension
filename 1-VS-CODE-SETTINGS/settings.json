@@ -1,20 +1,24 @@
 {
-  "workbench.colorTheme": "Visual Studio Dark",
-  "workbench.iconTheme": "material-icon-theme",
+  // *GLOBAL SETTINGS: mukul VS-CODE global settings
+  "workbench.colorTheme": "Panda Syntax",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
   "editor.minimap.maxColumn": 100,
   "scm.inputFontFamily": "Fira Code",
   "terminal.integrated.fontFamily": "Fira Code",
-  "editor.fontFamily": "Operator Mono Lig, Fira Code, Cascadia Code, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Operator Mono Lig, Fira Code, Source Code Pro, Hasklig, Cascadia Code PL, Consolas, 'Courier New', monospace, Times New Roman",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.preferredHighContrastColorTheme": "Default Dark+",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.confirmDragAndDrop": false,
   "diffEditor.codeLens": true,
   "update.mode": "none",
+  "editor.tabSize": 2,
   "editor.fontSize": 18,
   "editor.wordWrap": "on",
-  "editor.fontWeight": "800",
+  "editor.hover.delay": 400,
+  "editor.fontWeight": "normal",
+  "editor.autoIndent": "advanced",
   "editor.definitionLinkOpensInPeek": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
@@ -26,17 +30,21 @@
   "editor.formatOnType": false,
   "extensions.autoUpdate": false,
   "explorer.confirmDelete": false,
+  "workbench.list.smoothScrolling": true,
   "editor.hideCursorInOverviewRuler": true,
   "editor.suggest.shareSuggestSelections": true,
+  "vsicons.dontShowNewVersionMessage": true,
   "editor.cursorSmoothCaretAnimation": true,
   "auto-close-tag.disableOnLanguage": [],
   "terminal.integrated.cursorWidth": 4,
+  "json.schemaDownload.enable": false,
+  "prettier.endOfLine": "lf",
 
-  // SETTINGS: cursor animation & smooth scroll
+  // *SETTINGS: cursor animation & smooth scroll
   "editor.cursorBlinking": "expand",
   "editor.smoothScrolling": true,
 
-  // SETTINGS: fontLigatures (ligatures symbolic icon)
+  // *SETTINGS: fontLigatures (ligatures symbolic icon)
   "editor.fontLigatures": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -49,14 +57,14 @@
     ]
   },
 
-  // SETTINGS: emmet abbreviation
+  // *SETTINGS: emmet abbreviation
   "emmet.syntaxProfiles": { "javascript": "html" },
   "files.associations": { "html": "html" },
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
   "editor.tabCompletion": "on",
 
-  // SETTINGS: react(jsx) emmet enable
+  // *SETTINGS: react(jsx) emmet enable
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "vue-html": "html",
@@ -64,7 +72,7 @@
     "plaintext": "jade"
   },
 
-  // EXTENSION: auto-close-tag
+  // *EXTENSION: auto-close-tag
   "auto-close-tag.excludedTags": [
     "area",
     "base",
@@ -84,47 +92,47 @@
     "wbr"
   ],
 
-  // EXTENSION: code spell checker
+  // *EXTENSION: code spell checker
   "cSpell.userWords": [
-    "Btns",
+    "Bangla",
     "COVID",
     "Mukul",
     "Mymensingh",
     "Paypal",
+    "RESTfullAPI",
     "Rahman",
     "SIBACS",
     "Samiur",
+    "Singup",
     "browserslist",
+    "chartjs",
     "countup",
-    "nodemon"
+    "linebreak",
+    "nodemon",
+    "twilio",
+    "webfonts"
   ],
 
-  // EXTENSION: es-lint
+  // *EXTENSION: es-lint
   "eslint.alwaysShowStatus": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.fixAll.tslint": true,
     "source.organizeImports": true
-  }
+  },
 
-  /* // EXTENSION: emoji snippets
-  "editor.quickSuggestions": {
-    "other": false,
-    "comments": true,
-    "strings": false
-  }, */
-
-  /* // EXTENSION: power mode
-  "powermode.enabled": true,
-  "powermode.enableShake": false,
-  "powermode.comboTimeout": 1, */
-
-  /* // EXTENSION: live sass comppile
+  // *EXTENSION: live sass comppile
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
       "extensionName": ".css",
       "savePath": null
     }
-  ] */
+  ],
+
+  // *EXTENSION: markdownlint
+  "markdownlint.config": {
+    "MD041": false,
+    "MD046": false
+  }
 }
