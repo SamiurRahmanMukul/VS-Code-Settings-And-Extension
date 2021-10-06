@@ -31,10 +31,12 @@
 Please follow the below instructions to run this project in your computer:
 
 1. Run
+
    ```sh
    yarn / npm start
    ```
-2. Your app should be available in http://localhost:5500
+
+2. Your app should be available in <http://localhost:5500>
 
 <!-- Editor Setup -->
 
@@ -136,13 +138,7 @@ Create a `.eslintrc` file in the project root and enter the below contents:
 
 ```json
 {
-  "extends": [
-    "airbnb",
-    "airbnb/hooks",
-    "eslint:recommended",
-    "prettier",
-    "plugin:jsx-a11y/recommended"
-  ],
+  "extends": ["airbnb", "airbnb/hooks", "eslint:recommended", "prettier", "plugin:jsx-a11y/recommended"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 8
@@ -186,7 +182,7 @@ Create a `.eslintrc` file in the project root and enter the below contents:
 
 <!-- my social media links -->
 
-[facebook-url]: https://www.faceook.com/SamiurRahmanMukul
+[facebook-url]: https://www.facebook.com/SamiurRahmanMukul
 [instagram-url]: https://www.instagram.com/samiur_rahman_mukul
 [twitter-url]: https://www.twitter.com/SamiurRahMukul
 [linkedin-url]: https://www.linkedin.com/in/SamiurRahmanMukul
@@ -200,4 +196,4 @@ Create a `.eslintrc` file in the project root and enter the below contents:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [github-shield]: https://img.shields.io/badge/-Github-black.svg?style=flat-square&logo=github&color=555&logoColor=white
 
-                            </> HAPPY PROGRAMMING & DEVELOPING 🤣 </>
+                    </> HAPPY PROGRAMMING & DEVELOPING 🤣 </>

@@ -1,32 +1,29 @@
 {
-  // *GLOBAL SETTINGS: mukul VS-CODE global settings
-  "workbench.colorTheme": "Panda Syntax",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.minimap.maxColumn": 100,
-  "scm.inputFontFamily": "Fira Code",
-  "terminal.integrated.fontFamily": "Fira Code",
-  "editor.fontFamily": "Operator Mono Lig, Fira Code, Source Code Pro, Hasklig, Cascadia Code PL, Consolas, 'Courier New', monospace, Times New Roman",
+  "workbench.colorTheme": "Andromeda Colorizer",
+  "terminal.integrated.fontFamily": "Cascadia Code PL",
+  "editor.fontFamily": "Operator Mono Lig, Fira Code, Consolas, 'Courier New', monospace",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.preferredHighContrastColorTheme": "Default Dark+",
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.definitionLinkOpensInPeek": true,
   "explorer.confirmDragAndDrop": false,
+  "workbench.startupEditor": "none",
+  "editor.minimap.maxColumn": 100,
   "diffEditor.codeLens": true,
-  "update.mode": "none",
+  "update.mode": "manual",
   "editor.tabSize": 2,
-  "editor.fontSize": 18,
+  "editor.fontSize": 17,
   "editor.wordWrap": "on",
   "editor.hover.delay": 400,
   "editor.fontWeight": "normal",
   "editor.autoIndent": "advanced",
-  "editor.definitionLinkOpensInPeek": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.suggestSelection": "first",
   "workbench.sideBar.location": "left",
-  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
   "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
   "editor.formatOnType": false,
   "extensions.autoUpdate": false,
   "explorer.confirmDelete": false,
@@ -34,17 +31,15 @@
   "editor.hideCursorInOverviewRuler": true,
   "editor.suggest.shareSuggestSelections": true,
   "vsicons.dontShowNewVersionMessage": true,
-  "editor.cursorSmoothCaretAnimation": true,
-  "auto-close-tag.disableOnLanguage": [],
   "terminal.integrated.cursorWidth": 4,
   "json.schemaDownload.enable": false,
-  "prettier.endOfLine": "lf",
 
-  // *SETTINGS: cursor animation & smooth scroll
+  // SETTINGS: cursor animation & smooth scroll
+  "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
   "editor.smoothScrolling": true,
 
-  // *SETTINGS: fontLigatures (ligatures symbolic icon)
+  // SETTINGS: font-ligatures & symbolic icon
   "editor.fontLigatures": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -57,71 +52,60 @@
     ]
   },
 
-  // *SETTINGS: emmet abbreviation
+  // SETTINGS: emmet abbreviation
   "emmet.syntaxProfiles": { "javascript": "html" },
   "files.associations": { "html": "html" },
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
   "editor.tabCompletion": "on",
 
-  // *SETTINGS: react(jsx) emmet enable
+  // SETTINGS: react(jsx) emmet enabled
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
+    "plaintext": "jade",
     "vue-html": "html",
-    "razor": "html",
-    "plaintext": "jade"
+    "razor": "html"
   },
 
-  // *EXTENSION: auto-close-tag
-  "auto-close-tag.excludedTags": [
-    "area",
-    "base",
-    "br",
-    "col",
-    "command",
-    "embed",
-    "hr",
-    "img",
-    "input",
-    "keygen",
-    "link",
-    "meta",
-    "param",
-    "source",
-    "track",
-    "wbr"
-  ],
+  // EXTENSION: live-server
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.showOnStatusbar": true,
 
-  // *EXTENSION: code spell checker
-  "cSpell.userWords": [
-    "Bangla",
-    "COVID",
-    "Mukul",
-    "Mymensingh",
-    "Paypal",
-    "RESTfullAPI",
-    "Rahman",
-    "SIBACS",
-    "Samiur",
-    "Singup",
-    "browserslist",
-    "chartjs",
-    "countup",
-    "linebreak",
-    "nodemon",
-    "twilio",
-    "webfonts"
-  ],
+  // EXTENTION: prettier default code-formatter
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.singleQuote": false,
+  "prettier.endOfLine": "lf",
+  "prettier.printWidth": 400,
 
-  // *EXTENSION: es-lint
+  // EXTENSION: es-lint
   "eslint.alwaysShowStatus": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
+    "source.organizeImports": true,
     "source.fixAll.tslint": true,
-    "source.organizeImports": true
+    "source.fixAll": true
   },
 
-  // *EXTENSION: live sass comppile
+  // EXTENSION: phpfmt php code-formatter
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+
+  "phpfmt.passes": ["PSR2KeywordsLowerCase", "PSR2LnAfterNamespace", "PSR2ModifierVisibilityStaticOrder", "PSR2SingleEmptyLineAndStripClosingTag", "ReindentSwitchBlocks"],
+  "phpfmt.exclude": ["AllmanStyleBraces", "StripNewlineWithinClassBody", "ReindentComments", "AlignPHPCode", "OrganizeClass", "AutoSemicolon"],
+  "phpfmt.php_bin": "C:\\xampp\\php\\php.exe",
+  "phpfmt.psr2": false,
+
+  // EXTENSION: auto-close-tag
+  "auto-close-tag.excludedTags": ["area", "base", "br", "col", "command", "embed", "hr", "img", "input", "keygen", "link", "meta", "param", "source", "track", "wbr"],
+
+  // EXTENSION: code-spell checker
+  "cSpell.userWords": ["Bangla", "browserslist", "COVID", "Laravel", "Mukul", "Mymensingh", "nodemon", "Photoshop", "Rahman", "RESTfulAPI", "Samiur", "SIBACS", "Swiper", "unicons", "webfonts"],
+
+  // EXTENSION: live sass-compiler
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
@@ -130,9 +114,11 @@
     }
   ],
 
-  // *EXTENSION: markdownlint
+  // EXTENSION: markdown-lint
   "markdownlint.config": {
+    "MD001": false,
     "MD041": false,
-    "MD046": false
+    "MD046": false,
+    "MD033": false
   }
 }

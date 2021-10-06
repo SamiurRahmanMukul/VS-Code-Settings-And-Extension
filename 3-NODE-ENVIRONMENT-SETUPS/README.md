@@ -1,4 +1,4 @@
-# NODE ENVIRONMENT & WORKPLACE SETUPS
+# NODE ENVIRONMENT & WORKPLACE SETUP
 
 <!-- TABLE OF CONTENTS -->
 
@@ -27,18 +27,25 @@ Please follow the below instructions to update node in your machine:
 ### Windows
 
 1. Update npm
+
    ```sh
    npm install npm@latest -g
    ```
+
 2. Clear npm cache
+
    ```sh
    npm cache clean -f
    ```
+
 3. Install n
+
    ```sh
    npm install -g n
    ```
+
 4. Update node to latest version
+
    ```sh
    n latest
    ```
@@ -46,6 +53,7 @@ Please follow the below instructions to update node in your machine:
 ### Mac
 
 1. With Homebrew
+
    ```sh
    brew update
    brew upgrade node
@@ -53,17 +61,20 @@ Please follow the below instructions to update node in your machine:
 
 <!-- INSTALL & UPDATE YARN -->
 
-## Install and Update yarn
+## Install and update yarn
 
 Please follow the below instructions to install or update yarn in your machine.
 
 ### On Windows
 
 1. Install yarn
+
    ```sh
    npm install -g yarn
    ```
+
 2. Update yarn
+
    ```sh
    yarn set version latest
    ```
@@ -71,10 +82,13 @@ Please follow the below instructions to install or update yarn in your machine.
 ### On Mac
 
 1. Install yarn
+
    ```sh
    brew install yarn
    ```
+
 2. Update yarn
+
    ```sh
    brew update
    brew upgrade yarn
@@ -96,7 +110,7 @@ Install the below extensions:
 
 ### Settings
 
-Go to your Visual Stuido Code `settings.json` file and add the below settings there:
+Go to your Visual Studio Code `settings.json` file and add the below settings there:
 
 ```json
 
@@ -116,7 +130,7 @@ Go to your Visual Stuido Code `settings.json` file and add the below settings th
 
 ### Set Line Breaks
 
-Make sure in your VS Code Editor, "LF" is selected as line feed instead of CRLF (Carriage return and line feed). To do that, just click LF/CRLF in bottom right corner of editor, click it and change it to "LF". If you dont do that, you will get errors in my setup.
+Make sure in your VS Code Editor, "LF" is selected as line feed instead of CRLF (Carriage return and line feed). To do that, just click LF/CRLF in bottom right corner of editor, click it and change it to "LF". If you don't do that, you will get errors in my setup.
 
 <img src="./images/line-feed.jpg" alt="Line Feed" width="700">
 
@@ -167,4 +181,4 @@ Create a `.eslintrc.json` file in the project root and enter the below contents:
 }
 ```
 
-                </> HAPPY PROGRAMMING & DEVELOPING 🤣 </>
+                    </> HAPPY PROGRAMMING & DEVELOPING 🤣 </>

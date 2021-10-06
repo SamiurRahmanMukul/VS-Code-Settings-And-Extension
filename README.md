@@ -6,15 +6,15 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Github][github-shield]][github-url]
 
-# MUKUL-VS-CODE-SETUP-AND-EXTENSION
+# My `Visual Studio Code` Setup & Extensions
 
 <!-- repository public message -->
 
-Hello, I'm Samiur Rahman Mukul. At this REPOSITORY i will be share my VS-CODE user experience and more. Are you interested at this topic say connect to me. In this public ⛣ repository i will be share my vs-code settings with different platforms. So people let's with me and increase my energetic. Thanks
+Hello, I'm Samiur Rahman Mukul. At this REPOSITORY i will be share my `Visual Studio Code` user experience and more. Are you interested at this topic say connect to me. In this public ⛣ repository i will be share my `Visual Studio Code` settings with different platforms. So people let's with me and increase my energetic. Thanks
 
 <!-- my social media links -->
 
-[facebook-url]: https://www.faceook.com/SamiurRahmanMukul
+[facebook-url]: https://www.facebook.com/SamiurRahmanMukul
 [instagram-url]: https://www.instagram.com/samiur_rahman_mukul
 [twitter-url]: https://www.twitter.com/SamiurRahMukul
 [linkedin-url]: https://www.linkedin.com/in/SamiurRahmanMukul
@@ -28,4 +28,4 @@ Hello, I'm Samiur Rahman Mukul. At this REPOSITORY i will be share my VS-CODE us
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [github-shield]: https://img.shields.io/badge/-Github-black.svg?style=flat-square&logo=github&color=555&logoColor=white
 
-                            </> HAPPY PROGRAMMING & DEVELOPING 🤣 </>
+                      </> HAPPY PROGRAMMING & DEVELOPING 🤣 </>
