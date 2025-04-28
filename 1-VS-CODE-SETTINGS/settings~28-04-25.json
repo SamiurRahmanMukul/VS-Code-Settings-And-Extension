@@ -1,0 +1,157 @@
+{
+  "workbench.colorTheme": "Plastic",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Fira Code, Operator Mono Lig, Consolas, 'Courier New', monospace",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
+  "workbench.colorCustomizations": { "terminal.background": "#00000000" },
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "workbench.preferredHighContrastColorTheme": "Default Dark+",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.activityBar.orientation": "vertical",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.definitionLinkOpensInPeek": true,
+  "workbench.editor.empty.hint": "hidden",
+  "explorer.confirmDragAndDrop": false,
+  "window.titleBarStyle": "custom",
+  "editor.minimap.maxColumn": 100,
+  "extensions.autoUpdate": false,
+  "window.commandCenter": true,
+  "diffEditor.codeLens": true,
+  "update.mode": "manual",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.hover.delay": 400,
+  "editor.fontWeight": "normal",
+  "editor.autoIndent": "advanced",
+  "workbench.sideBar.location": "left",
+  "editor.suggestSelection": "first",
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "workbench.list.smoothScrolling": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "react-native-tools.showUserTips": false,
+  "editor.inlineSuggest.enabled": true,
+  "tailwindCSS.emmetCompletions": true,
+  "json.schemaDownload.enable": true,
+  "editor.accessibilitySupport": "off",
+  "editor.snippetSuggestions": "top",
+  "editor.cursorBlinking": "expand",
+  "editor.smoothScrolling": true,
+  "editor.tabCompletion": "on",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "settings": { "fontStyle": "italic" },
+        "scope": [
+          "comment", // following will be in italic
+          "keyword", // import, export, return…
+          "constant", // String, Number, Boolean…, this, super
+          "storage.modifier", // static keyword
+          "storage.type.class.js", // class keyword
+          "entity.name.type.class" // class names
+        ]
+      }
+    ]
+  },
+  "editor.quickSuggestions": {
+    "strings": "on",
+    "comments": "on",
+    "other": "on"
+  },
+
+  // SETTINGS: terminal and terminal suggestions
+  "terminal.integrated.fontFamily": "Cascadia Code PL, Consolas, 'Courier New', monospace",
+  "terminal.integrated.suggest.enableExtensionCompletions": true,
+  "terminal.integrated.suggest.enabled": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 4,
+  "terminal.integrated.fontSize": 13,
+
+  // SETTINGS: explore files & emmet abbreviation
+  "files.readonlyInclude": { "node_modules": true },
+  "files.associations": { "html": "html" },
+  "files.exclude": { "**/.idea": true },
+  "emmet.syntaxProfiles": { "javascript": "html" },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "plaintext": "jade",
+    "vue-html": "html",
+    "razor": "html"
+  },
+
+  // EXTENSION: codeium auto-completion
+  "codeium.enableConfig": {
+    "*": true,
+    "plaintext": true,
+    "properties": true,
+    "xml": true,
+    "markdown": true,
+    "ignore": true,
+    "tailwindcss": true,
+    "dotenv": true
+  },
+
+  // EXTENSION: code-spell checker
+  "cSpell.userWords": ["antd", "Bangla", "Cascadia", "codeium", "dont", "esbenp", "Fira", "linebreak", "MERN", "Mukul", "nextjs", "nodemon", "persistor", "popconfirm", "Rahman", "reduxjs", "RESTfulAPI", "Samiur", "sonarlint", "tailwindcss", "typeof", "vsicons", "vsintellicode"],
+
+  // EXTENSION: colorize
+  "colorize.languages": ["javascript", "javascriptreact", "typescript", "typescriptreact", "json", "html", "css"],
+
+  // EXTENSION: prettier default code-formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.singleQuote": false,
+  "prettier.endOfLine": "lf",
+  "prettier.printWidth": 400,
+
+  // EXTENSION: es-lint
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.fixAll": "explicit"
+  },
+
+  // EXTENSION: sonarlint code-folding
+  "sonarlint.rules": {
+    "javascript:S3358": { "level": "off" },
+    "javascript:S3776": { "level": "off" },
+    "javascript:S4123": { "level": "off" },
+    "javascript:S6478": { "level": "off" },
+    "javascript:S6440": { "level": "off" },
+    "javascript:S1481": { "level": "off" },
+    "javascript:S4624": { "level": "off" },
+    "javascript:S6774": { "level": "off" },
+    "javascript:S4138": { "level": "off" },
+    "javascript:S6772": { "level": "off" },
+    "javascript:S3800": { "level": "off" },
+    "javascript:S2004": { "level": "off" },
+    "javascript:S5843": { "level": "off" },
+    "typescript:S3358": { "level": "off" },
+    "typescript:S6478": { "level": "off" },
+    "typescript:S2004": { "level": "off" },
+    "typescript:S6544": { "level": "off" },
+    "typescript:S3776": { "level": "off" }
+  },
+
+  // EXTENSION: markdown-lint
+  "markdownlint.config": {
+    "MD001": false,
+    "MD041": false,
+    "MD046": false,
+    "MD033": false,
+    "MD042": false
+  }
+}
